@@ -1,0 +1,9 @@
+# Core dependencies for Segmentacion-Esferoides
+ultralytics==8.0.215
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+PyYAML>=6.0
+jupyter>=1.0.0
+notebook>=6.5.0
