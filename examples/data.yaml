@@ -1,0 +1,24 @@
+# Ejemplo de configuración de dataset para segmentación de esferoides
+# Este archivo debe ubicarse en el directorio data/
+
+# Ruta base del dataset (relativa o absoluta)
+# Si usas ruta relativa, es relativa a donde ejecutas el script
+path: .  # directorio actual (donde está data.yaml)
+
+# Rutas a las imágenes de entrenamiento y validación (relativas a 'path')
+train: images/train
+val: images/val
+
+# Opcional: conjunto de prueba
+# test: images/test
+
+# Nombres de las clases (importante: el índice debe coincidir con las anotaciones)
+names:
+  0: esferoide
+
+# Información adicional (opcional)
+# nc: 1  # número de clases
+# roboflow:
+#   workspace: tu-workspace
+#   project: tu-proyecto
+#   version: 1
