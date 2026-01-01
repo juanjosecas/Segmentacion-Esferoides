@@ -35,6 +35,9 @@ cd Segmentacion-Esferoides
 # Crear y activar el entorno
 conda env create -f environment.yml
 conda activate segmentacion-esferoides
+
+# Verificar instalación
+python verify_environment.py
 ```
 
 **Opción 2: Usando pip**
@@ -48,6 +51,9 @@ cd Segmentacion-Esferoides
 python3 -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
 pip install -r requirements.txt
+
+# Verificar instalación
+python verify_environment.py
 ```
 
 ### Preparación del Dataset
@@ -73,7 +79,9 @@ jupyter notebook
 # Navegar a notebooks/Segmentacion-Esferoides-Entrenamiento.ipynb
 ```
 
-Para más detalles, consulta la [Guía de Configuración Completa](docs/SETUP.md).
+Para más detalles, consulta:
+- [Guía de Configuración Completa](docs/SETUP.md)
+- [Guía de Uso del Notebook](docs/USAGE.md)
 
 ## Contenido del Notebook
 
