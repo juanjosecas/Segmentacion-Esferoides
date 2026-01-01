@@ -54,6 +54,7 @@ data/
 datasets/
 *.yaml
 !environment.yml
+!examples/*.yaml
 
 # Results
 results/
